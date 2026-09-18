@@ -6,11 +6,9 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let userInput = prompt('Enter your value: ').toLowerCase();
-    if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
-        return userInput;
-    } else {
-        return false;
-    }
+    return userInput;
 }
 
-console.log(getHumanChoice());
+let humanScore = 0;
+let computerScore = 0;
+
